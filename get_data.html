@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Your Horoscope</title>
+  </head>
+  <body>
+    {% if sign == "1" %}
+       <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Aries</h1>
+            <p class="lead">{{data}}</p>
+          </div>
+        </div>
+    {% elif sign == "2" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Taurus</h1>
+          <p class="lead">{{data}}</p>
+      </div>
+    {% elif sign == "3" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Gemini</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div> 
+    {% elif sign == "4" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Cancer</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+     {% elif sign == "5" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Leo</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>   
+    {% elif sign == "6" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Virgo</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+    {% elif sign == "7" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Libra</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+    {% elif sign == "8" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Scorpio</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+    {% elif sign == "9" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Sagittarius</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+    {% elif sign == "10" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Capicorn</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+    {% elif sign == "11" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Aquarius</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+    {% elif sign == "12" %}
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Pisces</h1>
+          <p class="lead">{{data}}</p>
+        </div>
+      </div>
+    
+  {% endif %}
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

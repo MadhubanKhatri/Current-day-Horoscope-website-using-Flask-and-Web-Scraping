@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      .card{
+        display: block;
+      }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Horoscope</title>
+  </head>
+  <body>
+
+    <!-- First Container -->
+    <div class="container" style="display: flex;">
+    <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Aries.png')}}" class="card-img-top" style="width: 50%; height: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Aries</h5></center>
+    <center><a href="/aries" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+    
+    <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Taurus.png')}}" class="card-img-top" style="width: 50%; height: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Taurus</h5></center>
+    <center><a href="/taurus" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+    <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Gemini.png')}}" class="card-img-top" style="width: 50%; height: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Gemini</h5></center>
+    <center><a href="/gemini" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Cancer.png')}}" class="card-img-top" style="width: 50%; height: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Cancer</h5></center>
+    <center><a href="/cancer" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+</div>
+
+<!-- Second Container -->
+<div class="container", style="display: flex;">
+
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Leo.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Leo</h5></center>
+    <center><a href="/leo" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+  
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Virgo.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Virgo</h5></center>
+    <center><a href="/virgo" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Libra.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Libra</h5></center>
+    <center><a href="/libra" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+  
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Scorpio.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Scorpio</h5></center>
+    <center><a href="/scorpio" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+</div>
+
+<!-- Third Container -->
+<div class="container" style="display: flex;">
+
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Sagittarius.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Sagittarius</h5></center>
+    <center><a href="/sagittarius" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Capicorn.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Capicorn</h5></center>
+    <center><a href="/capicorn" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+  
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Aquarius.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Aquarius</h5></center>
+    <center><a href="/aquarius" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+  <div class="card" style="width: 18rem;">
+  <center><img src="{{url_for('static', filename='Pisces.png')}}" class="card-img-top" style="width: 50%;"></center>
+  <div class="card-body">
+    <center><h5 class="card-title">Pisces</h5></center>
+    <center><a href="/pisces" class="btn btn-primary">Read</a></center>
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+</html>
